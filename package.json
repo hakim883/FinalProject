@@ -1,0 +1,29 @@
+{
+  "name": "finalproject",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakim883/FinalProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hakim883/FinalProject/issues"
+  },
+  "homepage": "https://github.com/hakim883/FinalProject#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.25.0",
+    "nodemon": "^2.0.12"
+  }
+}
